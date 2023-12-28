@@ -1,0 +1,10 @@
+.form-container {
+  /*espaçamento fora do elemento*/
+  margin: 10px;
+  width: 800px;
+  border-radius: 2px;
+  background-color: #aea5a5a1;
+  display: block;
+  align-items: center;
+  padding: 15px;
+}

@@ -1,0 +1,18 @@
+.textField-container {
+  display: flex;
+  flex-direction: column;
+  /*alinha os elementos no começo da tag pai*/
+  align-items: baseline;
+  gap: 10px;
+  margin: 10px;
+}
+
+.textField-label {
+  color: #ffffff;
+}
+
+.textField-input {
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
