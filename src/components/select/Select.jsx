@@ -8,7 +8,8 @@ const Select = (props) => {
       </label>
       <select id="cargos" name="Cargo">
         {props.options.map((option) => (
-          <option> {option}</option>
+          //sempre importante passar a key
+          <option key={option}> {option}</option>
         ))}
       </select>
     </div>
