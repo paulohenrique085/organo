@@ -1,0 +1,10 @@
+.button-register {
+  background-color: #6278f7;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

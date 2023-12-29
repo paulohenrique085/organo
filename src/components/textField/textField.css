@@ -8,11 +8,13 @@
 }
 
 .textField-label {
-  color: #ffffff;
+  color: #6278f7;
 }
 
 .textField-input {
   height: 30px;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
 }
