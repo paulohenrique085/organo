@@ -1,11 +1,11 @@
 import "./App.css";
-import Banner from "./components/banner/Banner";
+import Header from "./components/header/Header";
 import Form from "./components/form/Form";
 
 function App() {
   return (
     <div className="App">
-      <Banner />
+      <Header />
       <Form />
     </div>
   );

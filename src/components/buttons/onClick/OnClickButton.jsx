@@ -1,6 +1,6 @@
 import "./onCLickButton.css";
 
-const OnClickButton = ({ titleButton }) => {
-  return <button className="button-register"> {titleButton}</button>;
+const OnClickButton = (props) => {
+  return <button className="button-register"> {props.titleButton}</button>;
 };
 export default OnClickButton;

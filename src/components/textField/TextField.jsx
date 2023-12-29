@@ -1,15 +1,15 @@
 import "./textField.css";
 
-const TextField = ({ placeholderValue, labelValue }) => {
+const TextField = (props) => {
   return (
     <div className="textField-container">
       <label className="textField-label" htmlFor="">
-        {labelValue}
+        {props.labelValue}
       </label>
       <input
         className="textField-input"
         type="text"
-        placeholder={placeholderValue}
+        placeholder={props.placeholderValue}
       />
     </div>
   );

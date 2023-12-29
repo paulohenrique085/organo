@@ -1,0 +1,17 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-label {
+  margin-left: 800px;
+  color: #6278f7;
+  margin: 10px;
+}
+select {
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
