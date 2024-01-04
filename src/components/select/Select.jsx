@@ -6,7 +6,7 @@ const Select = (props) => {
       <label className="select-label" htmlFor="">
         {props.labelValue}
       </label>
-      <select id="cargos" name="Cargo">
+      <select id="cargos" name="Cargos">
         {props.options.map((option) => (
           //sempre importante passar a key
           <option key={option}> {option}</option>
