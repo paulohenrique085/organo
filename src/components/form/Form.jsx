@@ -15,7 +15,8 @@ const Form = () => {
   const handleSubmit = (event) => {
     //faz com que o react não siga o comportamento padrão
     event.preventDefault();
-    console.log(name, office, image);
+    //aqui eu poderia mandar uma requisição para o banco de dados
+    console.log(`Nome: ${name}\nOffice: ${office}\nImage:${image}`);
   };
 
   return (
